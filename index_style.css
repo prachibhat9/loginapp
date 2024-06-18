@@ -1,0 +1,68 @@
+
+*{
+    align-items: center; 
+}
+div{
+    padding: 50px ;
+   
+}
+.hello{
+    margin: auto; 
+    /* margin-left: 250px; */
+    position: relative;
+}
+
+.welcome{
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    background:#DFF8F6 ;
+    float: left;
+    
+}
+.panel{
+    float:left;
+    text-align: center;
+    color:white ;
+    width: 250px;
+    height: 300px;
+    background:#00444C;
+
+
+}
+.submit{
+    background-color: #F86503;
+    color: white;
+    border: none;
+    
+}
+.reset{
+    background-color:#DFF8F6 ;
+    border-width: 0.1mm;
+}
+.forgot{
+    text-align: right;
+    text-decoration: none;
+    
+}
+button{
+    padding: 10px 90px;
+    
+    border-radius: 70px;
+}
+#kloc{
+    position: fixed;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+input{
+    background-color: #DFF8F6;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    border-width: 0.1mm;
+    font-size: 15px;
+}
+.info{
+    
+}

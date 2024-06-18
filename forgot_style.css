@@ -1,0 +1,21 @@
+div{
+ 
+}
+button {
+    padding: 10px 90px;
+
+    border-radius: 70px;
+}
+.otp{
+    background-color: #F86503;
+        color: white;
+        border: none;
+}
+.verify{
+    background-color: white;
+    border-width: 0.1mm;
+}
+input{
+    border: none;
+    border-bottom: 0.2mm solid;
+}
