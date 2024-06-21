@@ -1,21 +1,47 @@
+.rest{
+   
+    margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 100vh; */
+}
+.forgot{
+    text-align: center;
+}
 div{
- 
+    /* height: 100%;
+        margin: 0;
+        display: block;  
+        justify-content: center; 
+        align-items: center;  */
 }
 button {
     padding: 10px 90px;
 
     border-radius: 70px;
 }
-.otp{
+.submit{
     background-color: #F86503;
         color: white;
         border: none;
 }
-.verify{
-    background-color: white;
-    border-width: 0.1mm;
-}
 input{
     border: none;
     border-bottom: 0.2mm solid;
+    width: 300px;
+}
+p{
+     text-align: right; 
+    color: 00444C; 
+}
+.panel{
+    background-color: gray;
+    height: 108px;
+    
+    
+}
+.error-message{
+    text-align: center;
 }

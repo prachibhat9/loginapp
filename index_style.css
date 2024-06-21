@@ -1,16 +1,27 @@
 
 *{
-    align-items: center; 
+    /* align-items: center;  */
 }
+body {
+    font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
 div{
     padding: 50px ;
-   
+
 }
 .hello{
-    margin: auto; 
+    height: 100%;
+    margin: 0; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+     /* margin: auto;   */
     /* margin-left: 250px; */
-    position: relative;
-}
+    /* position: relative; */
+    }
 
 .welcome{
     text-align: center;
@@ -50,8 +61,11 @@ button{
     
     border-radius: 70px;
 }
+.info{
+    
+}
 #kloc{
-    position: fixed;
+    position:relative;
     margin-left: 100px;
     margin-top: 20px;
 }
@@ -63,6 +77,16 @@ input{
     border-width: 0.1mm;
     font-size: 15px;
 }
-.info{
-    
+.link a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    /* position: fixed; */
+    color: #F86503;
+}
+#first{
+    text-align: left;
+}
+#second{
+    text-align: right;
 }
